@@ -5,3 +5,5 @@
 (2) electron  : 原子軌道ごとの電子収容数を表示する
 
 (3) DistanceBetweenTwoPoints : 二地点の緯度経度座標ファイル(CSV形式)を読み込んで距離を求めて表示する
+
+(4)lnglat_to_utm :　ＵＴＭ座標ファイル(CSV形式)を読み込んで緯度経度の座標に変換する
