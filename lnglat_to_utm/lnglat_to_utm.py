@@ -19,7 +19,7 @@ def main():
 		sys.exit()
 
 	print "------------------------------------------------------------------"
-    #WGS84:アメリカで使用されている世界測地系→UTMのコンバータを生成
+        #WGS84:アメリカで使用されている世界測地系→UTMのコンバータを生成
 	convertor = Proj(proj='utm', zone=args[2], ellps='WGS84')
 	with open(args[1], 'r') as csvfile:
 		csv_reader = csv.reader(csvfile,delimiter=',',quotechar='"') 
